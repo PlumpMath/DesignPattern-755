@@ -8,8 +8,11 @@ import factory.Shape;
 public class Demo {
     public static void main(String[] args) {
 
-        AbstractFactory shapeFactory = FactoryProducer.getFactory("shape");
-        AbstractFactory colorFactory = FactoryProducer.getFactory("color");
+//        AbstractFactory shapeFactory = FactoryProducer.getFactory("shape");
+//        AbstractFactory colorFactory = FactoryProducer.getFactory("color");
+
+        AbstractFactory shapeFactory = SingletonFactoryProducer.getFactory("shape");
+        AbstractFactory colorFactory = SingletonFactoryProducer.getFactory("color");
 
         Shape circle = shapeFactory.getShape("circle");
         Color red = colorFactory.getColor("red");
