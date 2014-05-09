@@ -1,7 +1,7 @@
 package factory;
 
 /**
- * Created by Jeremy on 5/8/2014.
+ *  {@code Circle} is an {@code Shape} implementation.
  */
 public class Circle implements Shape {
 

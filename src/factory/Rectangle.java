@@ -1,7 +1,7 @@
 package factory;
 
 /**
- * Created by Jeremy on 5/8/2014.
+ * {@code Rectangle} is an {@code Shape} implementation.
  */
 public class Rectangle implements Shape{
 

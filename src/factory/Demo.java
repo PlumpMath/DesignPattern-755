@@ -1,7 +1,7 @@
 package factory;
 
 /**
- * Created by Jeremy on 5/8/2014.
+ * Demonstrates factory pattern.
  */
 public class Demo {
     public static void main(String[] args) {

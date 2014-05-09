@@ -1,7 +1,7 @@
 package factory;
 
 /**
- * Created by Jeremy on 5/8/2014.
+ * ShapeFactory is responsible for creating corresponding shape.
  */
 public class ShapeFactory {
 
