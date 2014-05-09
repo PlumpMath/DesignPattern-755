@@ -1,7 +1,7 @@
 package factory;
 
 /**
- * Shape interface.
+ * {@code Shape} interface.
  */
 public interface Shape {
     public void draw();

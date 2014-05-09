@@ -1,7 +1,7 @@
 package factory;
 
 /**
- * ShapeFactory is responsible for creating corresponding shape.
+ * {@code ShapeFactory} is responsible for creating corresponding shape.
  */
 public class ShapeFactory {
 

@@ -1,7 +1,7 @@
 package factory;
 
 /**
- *  {@code Square} is a {@code Shape} implementation.
+ * {@code Square} is a {@code Shape} implementation.
  */
 public class Square implements Shape {
 
