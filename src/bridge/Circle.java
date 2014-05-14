@@ -7,8 +7,8 @@ public class Circle extends Shape{
 
     private int x, y, radius;
 
-    public Circle(int x, int y, int radius, DrawAPI drawAPI) {
-        super(drawAPI);
+    public Circle(int x, int y, int radius, Color color) {
+        super(color, "Circle");
         this.x = x;
         this.y = y;
         this.radius = radius;
@@ -16,6 +16,7 @@ public class Circle extends Shape{
 
     @Override
     public void draw() {
-        drawAPI.drawCircle(radius, x, y);
+        System.out.println("Draw circle: [x: " + x + ", y: " + y + ", radius:" + radius + "].");
+        color.fillColor(this);
     }
 }
