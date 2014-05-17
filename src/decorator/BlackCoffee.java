@@ -14,7 +14,7 @@ public class BlackCoffee extends Coffee {
     }
 
     @Override
-    protected List<String> getIngredients() {
+    public List<String> getIngredients() {
         List<String> ingredients = new ArrayList<String>();
         ingredients.add("Coffee");
         return ingredients;

@@ -7,8 +7,8 @@ import java.util.List;
  */
 public abstract class Coffee {
 
-    protected abstract int getCost();
+    public abstract int getCost();
 
-    protected abstract List<String> getIngredients();
+    public abstract List<String> getIngredients();
 
 }

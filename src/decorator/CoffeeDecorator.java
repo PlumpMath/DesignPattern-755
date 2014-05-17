@@ -14,12 +14,12 @@ public abstract class CoffeeDecorator extends Coffee {
     }
 
     @Override
-    protected int getCost() {
+    public int getCost() {
         return decoratedCoffee.getCost();
     }
 
     @Override
-    protected List<String> getIngredients() {
+    public List<String> getIngredients() {
         return decoratedCoffee.getIngredients();
     }
 
