@@ -1,7 +1,7 @@
 package proxy;
 
 /**
- * Demonstrates proxy pattern
+ * Demonstrates proxy pattern. Proxy class is supposed to reduce memory footprint of real object loading.
  */
 public class Demo {
     public static void main(String[] args) {
