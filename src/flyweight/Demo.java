@@ -7,7 +7,10 @@ import java.util.Random;
 import java.util.stream.IntStream;
 
 /**
- * Demonstrates flyweight pattern
+ * Demonstrates flyweight pattern. In most cases, flyweight objects are supposed to be immutable. For instance,
+ * a coffee shop could create several flavour object and store them into a {@link java.util.Map}. Therefore,
+ * instead of creating a flavour object for every new order, an existing flavour object is able to be fetched from
+ * this map.
  */
 public class Demo {
 
