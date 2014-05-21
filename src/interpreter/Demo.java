@@ -8,6 +8,12 @@ import java.util.Map;
  */
 public class Demo {
     public static void main(String[] args) {
+        //      +
+        //     / \
+        //    w   -
+        //       / \
+        //      x   z
+
         String expression = "w x z - +";
         Evaluator sentence = new Evaluator(expression);
 
