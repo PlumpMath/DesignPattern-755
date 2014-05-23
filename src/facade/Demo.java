@@ -3,7 +3,8 @@ package facade;
 import decorator.Coffee;
 
 /**
- * Demonstrates facade pattern
+ * Demonstrates facade pattern. In one system. usually one facade object is required. Thus Facade objects are often
+ * Singletons.
  */
 public class Demo {
     public static void main(String[] args) {
