@@ -11,6 +11,12 @@ import java.util.stream.IntStream;
  * a coffee shop could create several flavour object and store them into a {@link java.util.Map}. Therefore,
  * instead of creating a flavour object for every new order, an existing flavour object is able to be fetched from
  * this map.
+ *
+ * A comparison between the flyweight pattern and the prototype pattern shows some similarities in the UML,
+ * in that both use a manager to store and retrieve the objects in the collection. But there is ia clear difference
+ * between the two. The prototype pattern is used to create new objects that are similar in nature (hence it's a
+ * creational pattern), while the flyweight pattern is used to allow the application to point to the same instance of
+ * the object to save memory (hence it's a structural pattern).
  */
 public class Demo {
 
