@@ -8,18 +8,17 @@ import java.util.List;
 public class AndCriteria implements Criteria{
 
     private Criteria criteria;
-    private Criteria otherCritera;
+    private Criteria otherCriteria;
 
-    public AndCriteria(Criteria criteria, Criteria otherCritera) {
+    public AndCriteria(Criteria criteria, Criteria otherCriteria) {
         this.criteria = criteria;
-        this.otherCritera = otherCritera;
+        this.otherCriteria = otherCriteria;
     }
-
 
     @Override
     public List<Person> meetCriteria(List<Person> personList) {
 
         List<Person> firstCriteriaPersons = criteria.meetCriteria(personList);
-        return otherCritera.meetCriteria(firstCriteriaPersons);
+        return otherCriteria.meetCriteria(firstCriteriaPersons);
     }
 }

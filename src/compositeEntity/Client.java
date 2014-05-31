@@ -10,9 +10,7 @@ public class Client {
     private CompositeEntity compositeEntity = new CompositeEntity();
 
     public void printData() {
-        Stream.of(compositeEntity.getData()).forEach(data -> {
-            System.out.println("Data: " + data);
-        });
+        Stream.of(compositeEntity.getData()).forEach(data -> System.out.println("Data: " + data));
     }
 
     public void setData(String data1, String data2) {
